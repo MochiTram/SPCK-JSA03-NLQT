@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Patrick+Hand&family=Patua+One&display=swap');
+
+#navbar {
+    height: 50px;
+    width: 100%;
+    background-color: #012030;
+    margin: 0;
+    padding: 0;
+    font-family: 'Patrick Hand', cursive;
+}
+
+i {
+    font-family: unset;
+}
+
+#navbar ul,
+.icon ul {
+    list-style-type: none;
+    display: flex;
+    padding-top: 10px;
+    margin: 0;
+}
+
+#side ul {
+    list-style-type: none;
+    padding: 10px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+#navbar ul li a,
+#side ul li a,
+.icon ul li,
+.movie-title {
+    color: #daf8e3;
+    padding: 5px;
+    margin: 5px;
+    font-size: 25px;
+    text-decoration-line: none
+}
+
+#navbar ul li a:focus,
+#side ul li a:focus,
+.icon ul li:focus {
+    color: #00c2c7;
+}
+
+#navbar ul li a:hover,
+#side ul li a:hover,
+.icon ul li:hover,
+.movie-title:hover {
+    color: #00c2c7;
+}
+
+.slideshow img {
+    width: 100%;
+    height: 650px;
+}
+
+.slides {
+    position: relative;
+    height: 200px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    height: 1000px;
+    width: 1800px;
+}
+
+.showing {
+    opacity: 1;
+}
+
+body {
+    height: fit-content;
+    background-color: rgba(218,248,227, 0.3);
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#btn {
+    background-color: #012030;
+    border: none;
+    color: #F1E0AC;
+    font-size: 25px;
+}
+
+#btn:hover {
+    color: #daf8e3;
+    border-radius: 30%;
+}
+
+
+#test {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+}
+
+#side {
+    width: 10%;
+    height: 120px;
+    background-color: #012030;
+    position: absolute !important;
+    top: 50px;
+    left: -500px;
+    transition: all 0.5s ease-in;
+    color: #F1E0AC;
+    text-align: center;
+    z-index: 99;
+}
+
+
+.sidebar-on {
+    left: 0 !important;
+    transition: all 0.5s ease-out;
+    margin: 0;
+}
+
+#post-img {
+    height: 700px;
+    width: 600px;
+}
+
+.post {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: larger;
+    font-weight: 500
+}
+
+.theme {
+    height: 500px;
+    margin: 10px;
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+@keyframes imgchange {
+    from {
+        scale: 1;
+        opacity: 80%;
+    }
+
+    to {
+        scale: 1.1;
+        opacity: 100%;
+    }
+}
+
+@keyframes imgchange2 {
+    from {
+        scale: 1.1;
+        opacity: 100%;
+    }
+
+    to {
+        scale: 1;
+        opacity: 80%;
+    }
+}
+
+.card-img-top {
+    height: 200px;
+    width: 360px;
+    border-radius: 5%;
+    opacity: 80%;
+}
+
+.card-img-top:hover,
+.btn:hover,
+.trailer,
+.star-1,
+.star-2,
+.star-3,
+.star-4,
+.star-5 {
+    animation-name: imgchange;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.card-img-top:not(:hover),
+.btn:not(hover),
+.trailer:not(hover),
+.star-1:not(hover),
+.star-2:not(hover),
+.star-3:not(hover),
+.star-4:not(hover),
+.star-5:not(hover) {
+    animation-name: imgchange2;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.btn,
+.trailer {
+    background-color: rgb(0,194,199, 0.8);
+    border: none;
+    color: #012030;
+    font-size: 25px;
+}
+
+.btn:hover,
+.trailer:hover {
+    background-color: #00c2c7;
+    border: 5%;
+    color: #012030;
+    font-size: 25px;
+}
+
+.post h1 {
+    font: bropella;
+}
+
+/* #phrase1 h1 {
+    font-family: 'Patrick Hand', cursive;
+    text-align: center;
+    color: #495371;
+}
+
+#phrase1 p {
+    font-family: 'Patrick Hand', cursive;
+    text-align: justify;
+    margin: 0 50px;
+    font-size: 25px;
+    color: #495371;
+}
+
+#phrase1 span {
+    color: #D14D72;
+}
+
+#phrase1 h1 a span {
+    color: #D14D72;
+    text-decoration-line: none;
+}
+
+#phrase1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+#box1 {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    height: 500px;
+    width: 600px;
+    font-size: x-large;
+    color: #012030;
+    text-align: left;
+    font-family: 'Patrick Hand', cursive;
+}
+
+#box2 {
+    position: absolute;
+    top: 400px;
+    right: 20px;
+    height: 500px;
+    width: 600px;
+    font-size: x-large;
+    color: #012030;
+    text-align: right;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.contact {
+    width: 100%;
+    height: 700px;
+    background-color: rgb(241, 224, 172);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    top: 300px;
+    align-items: start;
+    background-image: url("img/manga.jpg");
+    background-blend-mode: overlay;
+    color: #495371;
+}
+
+.chat {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgba(195, 229, 217, 0.5);
+    border-radius: 20%;
+}
+
+textarea {
+    width: 259px;
+    font-family: 'Patrick Hand', cursive;
+    color: rgb(73, 83, 113);
+    border-bottom: 5px solid #c3e5d9;
+
+
+
+}
+
+input {
+    width: 250px;
+    border: none;
+    font-family: 'Patrick Hand', cursive;
+    color: #495371;
+    border-bottom: 5px solid rgb(195, 229, 217);
+    padding: 5px;
+}
+
+.chat p,
+.chat h1 {
+    font-size: large;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: 1000;
+    font-size: 30px;
+}
+
+.chat button,
+#phrase1 button {
+    font-size: large;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: 1000;
+    color: #495371;
+    background-image: linear-gradient(80deg, #F1E0AC, #c3e5d9);
+    border-radius: 10%;
+}
+
+.chat button:hover,
+#phrase1 button:hover {
+    font-size: large;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: 1000;
+    color: #D14D72;
+    background-image: linear-gradient(80deg, #c3e5d9, #F1E0AC);
+}
+
+
+.footer {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #012030;
+}
+
+.map {
+    padding: 25px;
+}
+
+.icon ul li {
+    font-size: 50px;
+    padding: 10px;
+}
+
+#loading {
+    width: 100%;
+    height: 200px;
+    text-align: center
+}
+
+#loading .btn {
+    height: 200px;
+    width: 100%;
+}
+
+.movies {
+    height: 600px;
+    width: 400px;
+    background-color: #012030;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    color: #daf8e3;
+    font-size: 20px;
+
+}
+
+.movie-img {
+    height: 300px;
+    width: 350px;
+}
+
+#movie-area {
+    padding: 20px;
+    margin: 20px;
+}
+
+#movie-area h2 {
+    font-size: 50px;
+    font-weight: 600;
+}
+

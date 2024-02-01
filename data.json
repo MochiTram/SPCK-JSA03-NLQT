@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "Doraemon",
+        "description": "Doraemon is a popular anime series that originated from a ​Japanese ​manga written and illustrated by ​Fujiko F. Fujio. The manga was first serialized in December 1969, and it has since become a beloved franchise among children and adults alike. The anime adaptation of Doraemon premiered in the spring of 1973 and consisted of 26 episodes, airing until September of the same year. The story revolves around the titular character, Doraemon, who is a robotic cat sent from the future to assist a young boy named ​Nobita Nobi. Doraemon carries a variety of futuristic gadgets in his pouch, which he uses to help Nobita overcome various challenges and improve his life. The series is known for its heartwarming themes, comedic moments, and lessons about friendship, courage, and family values.The anime adaptation of Doraemon has garnered a loyal following over the years, with a wide range of audience members enjoying its entertaining and relatable storytelling. Although produced in the 1970s, Doraemon's timeless appeal has led to it being embraced by subsequent generations. It remains one of the most beloved and iconic anime series in Japan and has gained popularity worldwide.Doraemon has received a positive reception from viewers and critics alike, with a score of 7.371 based on user ratings. The series has also ranked #23,152 in terms of popularity and has accumulated a fanbase of over 20,000 members. The anime is suitable for children and holds a PG rating, making it a wholesome and family-friendly show. In addition to the anime series, Doraemon has extended its presence in various forms of media, including movies, video games, and merchandise. This enduring franchise continues to capture the hearts of fans through its endearing characters, imaginative storytelling, and timeless messages of hope and friendship.",
+        "image": "img/dore.jpg",
+        "trailer": "https://www.youtube.com/embed/Rwo49URdqOs"
+    },
+    {
+        "id": 2,
+        "name": "Violet Evergarden",
+        "description": "The film explores themes of love, loss, healing, and the power of words. It delves into Violet's own emotional growth and her interactions with various clients, each with their own unique stories and struggles. The breathtaking animation and poignant storytelling of Violet Evergarden: The Movie tug at the heartstrings, taking audiences on an emotional rollercoaster.",
+        "image": "img/vot.jpg",
+        "trailer": "https://www.youtube.com/embed/UZEOpfelkxQ"
+    },
+    {
+        "id": 3,
+        "name": "Frieren's Journey",
+        "description": "Though it’s mostly as reserved as its title character, Frieren is littered with moments of absurd physical comedy, like Fern moving an entire crate around just so she can hide behind it. In most cases, these moments of levity puncture what could be an overly dour atmosphere – and that’s more than welcome.",
+        "image": "img/frieren.jpg",
+        "trailer": "https://www.youtube.com/embed/y2q2I1PG8Zs"
+    },
+    {
+        "id": 4,
+        "name": "Attack on Titian ",
+        "description": "When man-eating Titans first appeared 100 years ago, humans found safety behind massive walls that stopped the giants in their tracks. But the safety they have had for so long is threatened when a colossal Titan smashes through the barriers, causing a flood of the giants into what had been the humans' safe zone. During the carnage that follows, soldier Eren Jaeger sees one of the creatures devour his mother, which leads him to vow that he will kill every Titan. He enlists some friends who survived to help him, and that group is humanity's last hope for avoiding extinction at the hands of the monsters.",
+        "image": "img/aot.jpg",
+        "trailer": "https://www.youtube.com/embed/LV-nazLVmgo"
+    },
+    {
+        "id": 5,
+        "name": "Spy x Family ",
+        "description": " Spy x Family is a wholesome, humorous, action-packed spy thriller. Since it has elements and tones from different genres, I won’t classify it as purely Shonen; it has something for all types and kinds of viewers. Although the animation isn’t spectacular, the emotional expressions betray character nuances beautifully. ",
+        "image": "img/sxf.jpg",
+        "trailer": "https://www.youtube.com/embed/ctlk-K255f0"
+    },
+    {
+        "id": 6,
+        "name": "Detective Conan",
+        "description": "Shinichi Kudou, a high school student of astounding talent in detective work, is well known for having solved several challenging cases. One day, when Shinichi spots two suspicious men and decides to follow them, he inadvertently becomes witness to a disturbing illegal activity. Unfortunately, he is caught in the act, so the men dose him with an experimental drug formulated by their criminal organization, leaving him to his death. However, to his own astonishment, Shinichi lives to see another day, but now in the body of a seven-year-old child.",
+        "image": "img/conan.jpg",
+        "trailer": "https://www.youtube.com/embed/FXgdEb4kPR4"
+    },
+    {
+        "id": 7,
+        "name": "One Piece",
+        "description": "Monkey D. Luffy wants to become the King of all pirates. Along his quest he meets: a skilled swordsman named Roronoa Zolo; Nami, a greedy thief who has a knack for navigation; Usopp, a great liar who has an affinity for inventing; Sanji, a warrior cook; Chopper, a sentient deer who is also a skilled physician; and Robin, former member of Baroque Works. The gang sets sail to unknown seas in Grand Line to find the treasure of One Piece.",
+        "image": "img/op.jpg",
+        "trailer": "https://www.youtube.com/embed/W2xLuOCvtQo"
+    },
+    {
+        "id": 8,
+        "name": "Suzume",
+        "description": "As the skies turn red and the planet trembles, Japan stands on the brink of disaster. However, a determined teenager named Suzume sets out on a mission to save her country. Able to see supernatural forces that others cannot, it's up to her to close the mysterious doors that are spreading chaos across the land. A perilous journey awaits as the fate of Japan rests on her shoulders. ",
+        "image": "img/su.jpg",
+        "trailer": "https://www.youtube.com/embed/5pTcio2hTSw"
+    },
+    {
+        "id": 9,
+        "name": "Jujutsu Kaisen",
+        "description": "As the skies turn red and the planet trembles, Japan stands on the brink of disaster. However, a determined teenager named Suzume sets out on a mission to save her country. Able to see supernatural forces that others cannot, it's up to her to close the mysterious doors that are spreading chaos across the land. A perilous journey awaits as the fate of Japan rests on her shoulders. ",
+        "image": "img/ju.jpg",
+        "trailer": "https://www.youtube.com/embed/5pTcio2hTSw"
+    },
+    {
+        "id": 10,
+        "name": "My Hero Academia",
+        "description": "In a world where most people have superpowers, middle school student Izuku Midoriya is part of 20 percent of the population born without them. But his dream is to become a superhero and to attend the premier Japanese school for aspiring superheroes, UA High",
+        "image": "img/mha.jpg",
+        "trailer": "https://www.youtube.com/embed/iaMLBWj6HjI"
+    },
+    {
+        "id": 11,
+        "name": "Lycoris Recoil",
+        "description": "These are peaceful days, thanks to a secret crime-fighting organization of all-girl agents: Lycoris. The elite free-spirited Chisato is their all-time strongest agent, alongside the coolheaded talented-but-mysterious Takina",
+        "image": "img/ly.webp",
+        "trailer": "https://www.youtube.com/embed/F5DMjhg3A6c"
+    },
+    {
+        "id": 12,
+        "name": "Love Is War",
+        "description": "The proudly privileged top two students of an elite school each makes it their mission to be the first to extract a confession of love from the other. Shuchiin Academy is home to students from Japan's most successful and wealthy families, as well the nation's most brilliant young scholars.",
+        "image": "img/ka.jpg",
+        "trailer": "https://www.youtube.com/embed/rZ95aZmQu_8"
+    }
+]

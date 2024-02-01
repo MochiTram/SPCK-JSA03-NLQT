@@ -1,0 +1,102 @@
+body {
+    background-color: #13678A;
+}
+
+.watch-area{
+    background-color: #c3e5d9;
+    justify-content: space-evenly;
+}
+
+#single-movie-img1 {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    object-position: 20%;
+}
+
+#single-movie-img2 {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    object-position: 80%;
+}
+
+.watch-stuff iframe{
+    width: 100%;
+    height: 65vh;
+}
+
+.star-1,
+.star-2,
+.star-3,
+.star-4,
+.star-5{
+    color: #F1E0AC;
+    border: 5%;
+    font-size: 25px;
+}
+
+.star-1:hover,
+.star-2:hover,
+.star-3:hover,
+.star-4:hover,
+.star-5:hover{
+    color: #e5c35f;
+    border: 5%;
+    font-size: 25px;
+}
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+.watch-area h2{
+    color: #DAFDBA;
+    font-family: 'Patrick Hand', cursive;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.watch-area{
+    background-color: #13678A;
+}
+
+.info{
+    color: whitesmoke;
+    margin: 0 10px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 17px;
+    text-align: justify;
+}

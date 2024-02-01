@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <ul>
+            <li><a id="btn" onclick="openSidebar()"><i class="fa-solid fa-bars"></i></a></li>
+            <li><a href="index.html"><i class="fa-solid fa-house"></i></a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-user"></i></a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </div>
+
+
+    <div id="side">
+        <ul>
+            <li><a href="anime.html">Anime</a></li>
+            <li><a href="manga.html">Manga</a></li>
+        </ul>
+    </div>
+
+    <div class="slideshow">
+        <img src="img/1.jpg" alt="" class="slide">
+        <img src="img/2.jpg" alt="" class="slide">
+        <img src="img/3.jpg" alt="" class="slide">
+        <img src="img/4.jpg" alt="" class="slide">
+        <img src="img/5.jpg" alt="" class="slide">
+        <img src="img/6.jpg" alt="" class="slide">
+    </div>
+
+    <div id="box1">
+        <h1> Đôi nét về Developer của web này</h1>
+        <p>Nhà sáng lập web sáng tạo trẻ trung vui tính anime đã góp phần tạo nên một phần quan trọng trong sự
+            phát triển của ngành công nghiệp anime, manga. Với mong muốn mang đến những trải nghiệm mới mẻ, đầy màu sắc
+            và truyền cảm
+            hứng cho khán giả trên toàn thế giới.</p>
+    </div>
+    <div id="box2">
+        <h1>Hướng đến cộng đồng</h1>
+        <p>Web về anime, manga hướng đến việc xây dựng một cộng đồng yêu thích anime đoàn kết và thúc đẩy tình
+            yêu với thể loại này. Mục đích chính của web là để cung cấp cho người hâm mộ một nền tảng chia
+            sẻ cảm xúc, thông tin và tạo ra sự kết nối với những người có cùng sở thích và đam mê với bộ môn nghệ thuật
+            điện ảnh anime</p>
+    </div>
+    <div class="footer">
+        <div class="icon">
+            <ul>
+                <li><i class="fa-brands fa-youtube"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-facebook"></i></li>
+                <li><i class="fa-brands fa-spotify"></i></li>
+            </ul>
+        </div>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.309865456015!2d106.6989058118724!3d10.781134349912117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f48149f4e1b%3A0x7206046d9962f928!2sTran%20Dai%20Nghia%20High%20School%20for%20the%20Gifted!5e0!3m2!1sen!2s!4v1692791298788!5m2!1sen!2s"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script src="main.js"></script>
+    <script>w3.slideshow(".slide", 500);</script>
+</body>
+
+</html>
